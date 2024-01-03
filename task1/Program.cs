@@ -18,3 +18,4 @@ Console.WriteLine(num);
 string num1 = Convert.ToString(num / 100);
 string num2 = Convert.ToString(num %10);
 Console.WriteLine(num1 + num2);
+

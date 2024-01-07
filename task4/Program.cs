@@ -60,9 +60,35 @@
 // // Console.WriteLine(ThirdLast);
 // ThirdLast = ThirdLast - ThirdLast / 10 * 10;
 // Console.WriteLine("Для числа: " + i + " Третье число слева это: " + ThirdFirst + " , а Третье число справа это: " + ThirdLast);
+// string s = "Привет!";
+
+// for (int i = 0; i == s.Length; i++) {
+               
+//             Console.Write($"{s[i]} ,");
+        
+//     }
+
+
 string s = "Привет!";
-for (int i = 0; i < s.Length-1; i++)
+int i = 0;
+int l = s.Length;
+if (i < l)
 {
-            Console.Write($"{s[i]} ,");
-    
-}
+    for (i; i < s.Length; i++){
+     Console.Write($"{s[i]} ,");
+    }
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
